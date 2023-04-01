@@ -1,0 +1,1 @@
+{'/Users/tejashree/Desktop/USF/Data_Acquisition/msds692/data/berlitz1/HistoryHawaii.txt': ['brief history the history of hawaii reads like the story of a mythical', 'wives. in 1824, the king decided to travel abroad, but immediately upon']}
