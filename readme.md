@@ -10,9 +10,7 @@ The project also includes creating an index for faster lookups and generating HT
 
 A search engine takes in one or more search terms and looks for files within a corpus that contain all of those terms. A corpus is a collection of text files, often organized within a directory and its subdirectories. For example, the American National corpus contains a large amount of text data. In this project, articles from **Slate magazine** and **Berlitz travelogues** have been extracted for use as data sets. 
 
-![Screen Shot 2023-04-01 at 1.30.55 PM.png](Search%20Engine%20Implementation%206e9e9f0f7f564199b65b1e2c27a0d410/Screen_Shot_2023-04-01_at_1.30.55_PM.png)
-
-![Screen Shot 2023-04-01 at 1.30.04 PM.png](Search%20Engine%20Implementation%206e9e9f0f7f564199b65b1e2c27a0d410/Screen_Shot_2023-04-01_at_1.30.04_PM.png)
+![Screen Shot 2023-04-01 at 4.52.31 PM.png](Search%20Engine%20Implementation%206e9e9f0f7f564199b65b1e2c27a0d410/Screen_Shot_2023-04-01_at_4.52.31_PM.png)
 
 # Methodologies
 
@@ -22,11 +20,9 @@ The first step in this project is to implement a linear search algorithm that ch
 
 ## Hash Table using dict():
 
-Instead of searching each file for every query, creating an index that maps words to the files containing them is more efficient. The search results for multiple words are found by computing each word's intersection of the document sets. The index returns a set or unique list of document indexes, avoiding duplication of filename strings.
+Instead of searching each file for every query, creating an index that maps words to the files containing them is more efficient. The search results for multiple words are found by computing each word's intersection of the document sets. The index returns a set or unique list of document indexes, avoiding duplication of filename strings
 
-![Screen Shot 2023-04-01 at 1.47.27 PM.png](Search%20Engine%20Implementation%206e9e9f0f7f564199b65b1e2c27a0d410/Screen_Shot_2023-04-01_at_1.47.27_PM.png)
-
-![Screen Shot 2023-04-01 at 1.47.47 PM.png](Search%20Engine%20Implementation%206e9e9f0f7f564199b65b1e2c27a0d410/Screen_Shot_2023-04-01_at_1.47.47_PM.png)
+![Screen Shot 2023-04-01 at 4.53.22 PM.png](Search%20Engine%20Implementation%206e9e9f0f7f564199b65b1e2c27a0d410/Screen_Shot_2023-04-01_at_4.53.22_PM.png)
 
 Received message. Instead of searching each file for every query, creating an index that maps words to the files containing them is more efficient. The search results for multiple words are found by computing each word's intersection of the document sets. The index returns a set or unique list of document indexes, avoiding duplication of filename strings.
 
@@ -57,7 +53,7 @@ class HashTable:
 A HashTable represented as a list of lists with open hashing.
 Each bucket is a list of (key, value) tuples
 
-![Screen Shot 2023-04-01 at 2.22.40 PM.png](Search%20Engine%20Implementation%206e9e9f0f7f564199b65b1e2c27a0d410/Screen_Shot_2023-04-01_at_2.22.40_PM.png)
+![Screen Shot 2023-04-01 at 4.58.04 PM.png](Search%20Engine%20Implementation%206e9e9f0f7f564199b65b1e2c27a0d410/Screen_Shot_2023-04-01_at_4.58.04_PM.png)
 
 I implemented `__get__`and `__set__`functions to perform the equivalent function of get table[key] and setting the value in the table for table[key] = value
 
