@@ -12,7 +12,7 @@ A search engine takes in one or more search terms and looks for files within a c
 
 ![Screen Shot 2023-04-01 at 4.52.31 PM.png](Search%20Engine%20Implementation%206e9e9f0f7f564199b65b1e2c27a0d410/Screen_Shot_2023-04-01_at_4.52.31_PM.png)
 
-# Methodologies
+# Methodologies:
 
 ## Linear Search:
 
