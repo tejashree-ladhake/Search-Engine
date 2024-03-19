@@ -1,5 +1,6 @@
 # Search Engine Implementation
 
+
 # Overview
 
 The project involves implementing three different search mechanisms: a linear search, a hashtable search using Python’s built-in **`dict`** objects, and a hashtable search using a custom implementation. All three mechanisms should give the same results, but the linear search is expected to be much slower.
